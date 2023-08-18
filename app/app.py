@@ -12,7 +12,7 @@ from htmlTemplate import bot_template, user_template
 
 def main():
   load_dotenv()
-  st.set_page_config(page_title="Chat with multiple PDF", page_icon=":smiley:")
+  st.set_page_config(page_title="Chat with multiple PDF xdx", page_icon=":smiley:")
 
   if "conversation" not in st.session_state:
     st.session_state.conversation = None
